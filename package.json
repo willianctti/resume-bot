@@ -1,0 +1,41 @@
+{
+  "name": "resume-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that joins voice channels, transcribes conversations, and generates summaries using AI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "transcription",
+    "ai",
+    "summary"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.16.1",
+    "@google/generative-ai": "^0.2.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "form-data": "^4.0.2",
+    "libsodium-wrappers": "^0.7.13",
+    "node-fetch": "^2.6.7",
+    "node-wav": "^0.0.2",
+    "openai": "^3.3.0",
+    "opusscript": "^0.0.8",
+    "prism-media": "^1.3.5",
+    "vosk": "^0.3.39"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
